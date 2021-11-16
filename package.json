@@ -1,0 +1,15 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "HTTP Debug Proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "author": "Misko Hevery <misko@builder.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "proxy-recorder": "0.0.7"
+  }
+}
