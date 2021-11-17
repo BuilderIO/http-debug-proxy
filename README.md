@@ -39,7 +39,7 @@ Next step is to configure your application to talk to the proxy rather than to t
    ```
    options: {
       publicAPIKey: config.builderAPIKey,
-      baseURL: "http://localhost:8100",
+      baseURL: "http://localhost:8100/api/v1/graphql",
       ...
     }
    ```
